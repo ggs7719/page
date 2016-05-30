@@ -1,0 +1,142 @@
+ul {
+	margin: 0;
+	padding-left: 0;
+}
+
+.container {
+	width: 1296px;
+	height: 340px;
+	margin: 0 auto;
+}
+
+#header {
+	background-color: green
+
+}
+
+.clearfix{
+	clear: both;
+}
+
+#logo {
+	float: left;
+}
+
+#header nav {
+	float: right;
+}
+
+#header a {
+	display: block;
+	width: 80px;
+	text-decoration: none;
+	font-size: 10px;
+	color: black
+}
+
+#header ul {
+	list-style-type: none;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+#header li {
+	float: left;
+	line-height: 70px;
+}
+
+h1{
+	color: white;
+	text-transform: uppercase;
+	text-align: center;
+	letter-spacing: 2px;
+}
+
+.portfolio {
+	text-align: center;
+}
+
+.product-list nav {
+	float: none;
+	text-align: center;
+    display: block;
+}
+
+
+
+.product-list ul {
+	margin: 50px;
+	list-style-type: none;
+	text-transform: uppercase;
+	padding-left: 15%;
+    padding-right: 15%;
+    padding-bottom: 50px;
+
+}
+
+.product-list li {
+	box-sizing: border-box;
+	float: left;
+	margin: 0 auto;
+	padding: 0 15px;
+	width: 16.66666%;
+}
+
+.product-list a {
+	display: block;
+	width: 100px;
+	text-decoration: none;
+	font-size: 10px;
+	color: black	
+}
+
+.row {
+	margin: 0 -30px;
+	padding-right: 22%;
+	padding-left: 22%;
+}
+
+.col-4 {
+	margin: 0 auto;
+	box-sizing: border-box;
+	float: left;
+	padding: 0 30px;
+	width: 33.333333%;
+	padding-bottom: 22px;
+}
+
+#logo2 {
+	padding-top: 50px;
+}
+
+section .container {
+	text-align: center;
+	margin: 0 auto;
+	background-color: yellow;
+} 
+
+section .container ul {
+	margin-top: 50px;
+	float: left;
+	text-transform: uppercase;
+	padding-left: 35%;
+    padding-right: 35%;
+    padding-bottom: 50px;
+	list-style-type: none;
+}
+
+section .container li {
+    box-sizing: border-box;
+	float: left;
+	margin: 0 auto;
+	padding: 0 15px;
+	width: 16.66666%;
+}
+
+section .container a {
+	display: block;
+	width: 100px;
+	text-decoration: none;
+	font-size: 10px;
+	color: black	
+}
